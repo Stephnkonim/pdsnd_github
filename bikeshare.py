@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+# Create a dictionary with the city names as keys and csv files as values
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
